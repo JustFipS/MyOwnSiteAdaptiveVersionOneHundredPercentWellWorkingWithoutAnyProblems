@@ -94,7 +94,7 @@ footer{
         height: 100%;
         background: rgba(0, 0, 0, 1);
         z-index: 2;
-        animation: hidee 2s ease-in-out forwards;
+        animation: hidee 3.1s ease-in-out forwards;
     }
 @keyframes hidee {
     0% {
