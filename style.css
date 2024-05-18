@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+
 }
 
 *::selection{
@@ -32,6 +33,7 @@ rgb(8, 22, 82) */
 
 
 .load {
+    user-select: none;
     z-index: 2;
     font-family: "Bahiana", sans-serif;
     font-weight: 400;
