@@ -155,7 +155,7 @@ footer{
     z-index: 1;
     position:fixed;
     pointer-events: none;
-    opacity: 65%;
+    opacity: 60%;
     left: 50%;
     top: 30%;
     transform: translateX(-50%);
