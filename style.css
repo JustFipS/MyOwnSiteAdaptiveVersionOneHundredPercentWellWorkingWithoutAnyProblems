@@ -33,7 +33,7 @@ rgb(8, 22, 82) */
 
 
 .load {
-    user-select: none;
+
     z-index: 2;
     font-family: "Bahiana", sans-serif;
     font-weight: 400;
@@ -54,7 +54,6 @@ rgb(8, 22, 82) */
 
 img{
     opacity: 80%;
-
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -67,8 +66,7 @@ footer{
     bottom: 0;
     left: 50%;
     transform: translateX(-40%);
-    z-index: 0;
-    user-select: none;
+    z-index: 1;
     margin: 0 .8ch;
     
 }
@@ -145,11 +143,9 @@ footer{
 
     70% {
         opacity: 100%;
-        user-select: none;
     }
     100% {
         opacity: 0%;
-
     }
   }
   .adaptive-image {

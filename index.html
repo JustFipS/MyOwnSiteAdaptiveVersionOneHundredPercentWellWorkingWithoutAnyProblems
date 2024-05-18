@@ -10,7 +10,7 @@
 </head>
 <body>
  <div class="loading">
-        <a class="load">Made by fips</a> 
+        <a class="load" >Made by fips</a> 
     </div>  
     <a><img src="assets\backflower.png"class="adaptive-image"></a> 
         <div class="content">
@@ -35,14 +35,25 @@
 
 <footer>
 
-    <a href="https://www.instagram.com/fipsyatina/"><img src="assets/insta.png" style=" width: calc(var(--sizeindex) * 5);padding: calc(var(--sizeindex) *  1);z-index: 1;   filter: invert(50%);"></a>
+    <a href="https://www.instagram.com/fipsyatina/"><img src="assets/insta.png" style=" width: calc(var(--sizeindex) * 5);padding: calc(var(--sizeindex) *  1);z-index: 2;   filter: invert(50%);"></a>
 
-    <a href="https://github.com/JustFipS"><img src="assets/github.png" style=" width: calc(var(--sizeindex) * 5);padding: calc(var(--sizeindex) *  1);z-index: 1;   filter: invert(50%);"></a>
+    <a href="https://github.com/JustFipS"><img src="assets/github.png" style=" width: calc(var(--sizeindex) * 5);padding: calc(var(--sizeindex) *  1);z-index: 2;   filter: invert(50%);"></a>
 
-    <a href="https://t.me/iwnttoslep"><img src="assets/telegram.png" style=" width: calc(var(--sizeindex) * 5);padding: calc(var(--sizeindex) *  1);z-index: 1;   filter: invert(50%);"></a>
+    <a href="https://t.me/iwnttoslep"><img src="assets/telegram.png" style=" width: calc(var(--sizeindex) * 5);padding: calc(var(--sizeindex) *  1);z-index: 2;   filter: invert(50%);"></a>
 
-    <a href="https://steamcommunity.com/id/F1pS"><img src="assets/steam.png" style=" width: calc(var(--sizeindex) * 5);padding: calc(var(--sizeindex) *  1);z-index: 1;  filter: invert(50%);"></a>
+    <a href="https://steamcommunity.com/id/F1pS"><img src="assets/steam.png" style=" width: calc(var(--sizeindex) * 5);padding: calc(var(--sizeindex) *  1);z-index: 2;  filter: invert(50%);"></a>
 
 </footer>
 </body>
 </html>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+    const loadingElement = document.querySelector('.loading');
+    loadingElement.addEventListener('animationend', () => {
+        loadingElement.style.display = 'none'; // Или loadingElement.remove(); чтобы полностью удалить элемент из DOM
+    });
+});
+
+</script>
