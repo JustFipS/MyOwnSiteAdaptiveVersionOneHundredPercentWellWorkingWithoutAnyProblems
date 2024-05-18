@@ -37,8 +37,8 @@ rgb(8, 22, 82) */
     font-weight: 400;
     font-style: normal;
     font-size: calc(var(--sizeindex) * 10);
-    color: rgb(8, 22, 82);
-    text-shadow: rgb(10, 26, 94) 0px 8px 13px ;
+    color: rgb(194, 16, 155);
+    text-shadow: rgb(75, 7, 79) 0px 8px 13px ;
     overflow-wrap: break-word;
     position: fixed;
     padding: calc(var(--sizeindex) * 3);
