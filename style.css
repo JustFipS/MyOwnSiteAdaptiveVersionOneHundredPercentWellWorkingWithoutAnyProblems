@@ -33,7 +33,9 @@ rgb(8, 22, 82) */
 
 .load {
     z-index: 2;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Bahiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: calc(var(--sizeindex) * 10);
     color: rgb(8, 22, 82);
     text-shadow: rgb(10, 26, 94) 0px 8px 13px ;
@@ -44,7 +46,7 @@ rgb(8, 22, 82) */
     text-align: center;
     left: 50%;
     top: 50%;
-    line-height: 1.8ch;
+    line-height: 2.2ch;
     transform: translate(-50%, -50%);
 }
 
