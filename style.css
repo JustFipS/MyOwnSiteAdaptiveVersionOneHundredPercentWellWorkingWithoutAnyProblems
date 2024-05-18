@@ -84,7 +84,7 @@ footer{
     overflow-wrap: break-word;
     width: 18ch;
     position: relative;
-    color: rgba(230, 230, 230, 0.708);
+    color: rgba(230, 230, 230, 0.95);
     line-height: 1.3ch;
     padding: 10px;
 }
@@ -100,13 +100,12 @@ footer{
     text-align:right;
     overflow-wrap: break-word;
     width: 28ch;
-    padding-left: calc(var(--sizeindex) * 1);
     top: calc(var(--sizeindex) * 7);
     right: 0;
     line-height: 1px;
+    padding-left: 2ch;
 }
 .leftside {
-    z-index: 1;
     font-size: calc(var(--sizeindex) * 2.5);
 }
 
@@ -155,7 +154,7 @@ footer{
     z-index: 1;
     position:fixed;
     pointer-events: none;
-    opacity: 60%;
+    opacity: 75%;
     left: 50%;
     top: 30%;
     transform: translateX(-50%);
