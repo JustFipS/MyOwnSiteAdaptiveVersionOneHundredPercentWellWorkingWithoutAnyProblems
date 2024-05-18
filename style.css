@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    cursor: url(assets/cursor.png), pointer;
 
 }
 
@@ -146,6 +147,8 @@ footer{
     }
     100% {
         opacity: 0%;
+
+
     }
   }
   .adaptive-image {
