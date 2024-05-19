@@ -1,6 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Bahiana&family=Bebas+Neue&family=Cairo:wght@200..1000&family=Codystar:wght@300;400&family=Josefin+Slab:wght@582&family=Old+Standard+TT&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Bahiana&family=Bebas+Neue&family=Cairo:wght@200..1000&family=Codystar:wght@300;400&family=Josefin+Slab:wght@582&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
 
 *{
     box-sizing: border-box;
@@ -15,7 +14,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: rgb(79, 18, 104);
+    color: rgb(78, 60, 115);
 } 
 :root{
 --sizeindex: calc(1vw + 1vh)
@@ -36,20 +35,20 @@ rgb(8, 22, 82) */
 .load {
 
     z-index: 2;
-    font-family: "Bahiana", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 500;
+    font-style: italic;
     font-size: calc(var(--sizeindex) * 10);
-    color: rgb(194, 16, 155);
-    text-shadow: rgb(75, 7, 79) 0px 8px 13px ;
+    color: rgb(169, 169, 169);
+    text-shadow: rgb(79, 79, 79) 0px 8px 13px ;
     overflow-wrap: break-word;
     position: fixed;
     padding: calc(var(--sizeindex) * 3);
     pointer-events: none;
     text-align: center;
     left: 50%;
-    top: 50%;
-    line-height: 2.2ch;
+    top: 45%;
+    line-height: 1.3ch;
     transform: translate(-50%, -50%);
 }
 
@@ -86,7 +85,7 @@ footer{
     width: 18ch;
     position: relative;
     color: rgba(230, 230, 230, 0.95);
-    line-height: 1.3ch;
+    line-height: 1.64ch;
     padding: 10px;
 }
 .rightside {
@@ -155,7 +154,7 @@ footer{
     z-index: 1;
     position:fixed;
     pointer-events: none;
-    opacity: 60%;
+    opacity: 75%;
     left: 50%;
     top: 30%;
     transform: translateX(-50%);
@@ -164,7 +163,8 @@ footer{
 @media (min-width: 1200px) {
     .adaptive-image {
       height: calc(var(--sizeindex) * 35);
-      top: 1%;
+      top: 4%;
+      
     }
     .rightside {
       top: calc(var(--sizeindex) * 5); /* Adjust as needed for larger screens */
@@ -172,6 +172,10 @@ footer{
   }
   
   @media (max-width: 1199px) and (min-width: 769px) {
+    .adaptive-image {
+        height: calc(var(--sizeindex) * 45);
+        top: 5%;
+      }
     .rightside {
       top: calc(var(--sizeindex) * 9); /* Adjust as needed for medium screens */
     }
@@ -179,11 +183,18 @@ footer{
   
   @media (max-width: 768px) {
     .adaptive-image {
-      height: calc(var(--sizeindex) * 50);
-      top: 1%;
+      height: calc(var(--sizeindex) * 45);
+      top: 5%;
+      opacity: 50%;
+    }
+    .leftside{
+
     }
     .rightside {
-      top: 35%; /* Adjust as needed for smaller screens */
+      top: 55%;
+      overflow-wrap: break-word;
+      padding-left: 3ch;
+      text-align: center; /* Adjust as needed for smaller screens */
     }
   }
 
