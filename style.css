@@ -103,7 +103,7 @@ footer{
     top: calc(var(--sizeindex) * 7);
     right: 0;
     line-height: 1px;
-    padding-left: 2ch;
+
 }
 .leftside {
     font-size: calc(var(--sizeindex) * 2.5);
